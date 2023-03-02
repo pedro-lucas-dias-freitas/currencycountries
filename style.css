@@ -1,0 +1,58 @@
+/*Cores do site*/
+* {
+    background-color: rgb(247, 247, 247);
+    /*background-color: rgb(109, 162, 86);*/
+}
+h2 {
+    /*color: rgb(97, 97, 97);*/
+    color: rgb(109, 162, 86);
+}
+h3 {
+    color: rgb(97, 97, 97);
+    /*color: rgb(109, 162, 86);*/
+}
+/*Conversor
+select#moeda2 {
+    align: to right;
+}*/
+body {
+    margin: 1cm;
+}
+header {
+    text-align: center;
+    font: normal bold 1.2em Arial;
+}
+input {
+    height: 30px;
+}
+input#converter {
+    width: 170px;  /*120; 150*/
+}
+input#moedas {
+    width: 400px;   /*350; 380*/
+}
+input#sugestoes {
+    width: 170px;   /*120; 150*/
+}
+input#erro {
+    width: 250px;   /*200; 230*/
+}
+input#doacao {
+    width: 250px;   /*230*/
+}
+select {
+    box-align: center;
+}
+h1 {
+    font-size: 36px;
+    text-align: center;
+}
+p#citacao {
+    text-align: center;
+    font-size: 1.2em;
+    font-family: cursive;
+}
+p#papa {
+    text-align: right;
+    font-style: italic;
+}

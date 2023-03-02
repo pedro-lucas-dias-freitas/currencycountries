@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Countries</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Imagens/imagem-para-favicon-png.png">
+    <style>
+        p {
+            font-size: 1.2em;
+        }
+        div#paypal {
+            text-align: center;    
+        }
+    </style>
+</head>
+<body>
+    <!--Abas de navegação no site-->
+    <header><a href="index.html" target = "_self" rel = "prev">Conversor</a> | <a href="moedas.html" target = "_self" rel = "prev">Moedas mais Valiosas do Mundo</a> | <a href="sugestoes.html" taret = "_self" rel = "prev">Sugestões</a> | <a href="erro.html" target = "_self" rel = "prev">Reportar erro</a> | <a href="doacao.html" target = "_self">Doe pelo Paypal</a></header>
+
+
+    <h1>Nos ajude a mantermos e melhorarmos esse site</h1> <br><br>
+    <p>Se o nosso conteúdo lhe foi útil de alguma forma, pedimos que você nos retribua para que nós possamos ter mais recursos para melhorar o nosso site, tendo assim usuários mais satisfeitos.</p>
+    <p>A plataforma que utilizamos para realizar a transação é o Paypal, que é mundialmente conhecido e totalmente seguro, pois presamos por praticidade e confiabilidade.</p><br>
+    <p id = "citacao">"O que se compartilha, multiplica-se."</p> <br><br>
+    <p id = "papa">- Papa Francisco</p>
+    <br> <br>
+    <div id = "paypal">
+        <form action="https://www.paypal.com/donate" method="post" target="_top">
+            <input type="hidden" name="business" value="PN5MYFJJF52GL" />
+            <input type="hidden" name="no_recurring" value="0" />
+            <input type="hidden" name="currency_code" value="BRL" />
+            <input type="image" src="https://www.paypalobjects.com/pt_BR/BR/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Faça doações com o botão do PayPal" />
+            <img alt="" border="0" src="https://www.paypal.com/pt_BR/i/scr/pixel.gif" width="1" height="1" />
+            </form>
+    </div>        
+</body>
+</html>
